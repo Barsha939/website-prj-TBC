@@ -1,0 +1,65 @@
+body {
+  background-color: #3d3e5d;
+  font-family: "Arial", sans-serif;
+}
+.tile {
+  height: 140px;
+  margin: 5px;
+  padding: 20px;
+  float: left;
+}
+#picture.tile {
+  width: 450px;
+  background-image: url(technology.jpg);
+  background-size: cover;
+  color: #f7fcfc;
+}
+#picture.tile span {
+  font-size: 60px;
+}
+#link.tile {
+  width: 200px;
+  background-color: #f16e50;
+  color: #f7fcfc;
+}
+#lecture.tile {
+  width: 200px;
+  background-color: #feb45d;
+  color: #f7fcfc;
+}
+#lecture.tile span {
+  font-size: 60px;
+}
+#table.tile {
+  width: 450px;
+  background-color: #14b2a3;
+  color: #f7fcfc;
+}
+#table h2 {
+  text-align: center;
+}
+#users-table {
+  margin: 10px auto;
+  width: 100%;
+}
+#users-table th {
+  border-bottom: 1px solid #f6f6f6;
+  text-align: left;
+  padding-right: 50px;
+}
+#users-table td {
+  text-align: left;
+}
+#form.tile {
+  width: 450px;
+  background-color: #f6f6f6;
+}
+#main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+ul li {
+  list-style-type: square;
+  color: #f7fcfc;
+  text-decoration: underline;
+}
